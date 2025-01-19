@@ -15,6 +15,11 @@ public class Recursion
 		System.out.println("The " + initVal + " term of the Fibonacci sequence is: " + fibonacci(initVal));
 	}
 	
+	/**
+	 * Returns the fibonacci sequence value for the given number in
+	 * @param val the value to be caculated
+	 * @return the result of the calculation
+	 */
 	private static int fibonacci(int val)
 	{
 		if(val == 0 || val == 1)
