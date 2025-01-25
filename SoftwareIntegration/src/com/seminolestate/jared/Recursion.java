@@ -22,10 +22,6 @@ public class Recursion
 	 */
 	private static int fibonacci(int val)
 	{
-		if(val == 0 || val == 1)
-			return val;
-		
-		else
-			return fibonacci(val - 1) + fibonacci(val - 2);
+		return (val == 0 || val == 1) ? val : fibonacci(val - 1) + fibonacci(val - 2);
 	}
 }
