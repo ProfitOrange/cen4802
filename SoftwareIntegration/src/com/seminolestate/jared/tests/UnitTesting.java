@@ -33,7 +33,13 @@ class UnitTesting
 	public void test() 
 	{
 		assertEquals(55, Recursion.fibonacci(10));
+		assertEquals(610, Recursion.fibonacci(15));
+
 		
+		
+		
+		
+		//Other Stuff
 		assertEquals(2026.74, loanCalc.getMonthlyPayment());
 		assertEquals(1500.00, loanCalc.getMonthlyInterest() * loanCalc.getPrincipleRemaining());
 		
