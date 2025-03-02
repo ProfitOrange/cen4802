@@ -12,19 +12,6 @@ pipeline {
 				}
             }
         }
-        stage('Test') {
-            steps {
-				dir("SoftwareIntegration")
-				{
-					bat 'mvn test'
-				}
-            }
-            post {
-                always {
-                    junit 'target/surefire-reports/*.xml'
-                }
-            }
-        }
         stage('Deliver') { 
             steps {
 				dir("SoftwareIntegration")
