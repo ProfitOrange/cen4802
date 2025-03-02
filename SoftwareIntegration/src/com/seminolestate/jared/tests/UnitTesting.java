@@ -34,6 +34,7 @@ class UnitTesting
 	{
 		assertEquals(55, Recursion.fibonacci(10));
 		assertEquals(610, Recursion.fibonacci(15));
+		assertEquals(6765, Recursion.fibonacci(20));
 
 		
 		
