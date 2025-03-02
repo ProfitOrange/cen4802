@@ -6,11 +6,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+				bat 'cd SoftwareIntegration'
                 bat 'mvn -B -DskipTests clean package'
             }
         }
         stage('Test') {
             steps {
+				bat 'cd SoftwareIntegration'
                 bat 'mvn test'
             }
             post {
@@ -21,6 +23,7 @@ pipeline {
         }
         stage('Deliver') { 
             steps {
+				bat 'cd SoftwareIntegration'
                 bat './jenkins/scripts/deliver.sh' 
             }
         }
