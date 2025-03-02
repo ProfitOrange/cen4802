@@ -13,6 +13,24 @@
           <release>21</release>
         </configuration>
       </plugin>
+      
+      <plugin>
+      	<groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+        	<archive>
+            	<!-- Configures the content of the created manifest -->
+            	<manifest>
+            		<!-- Adds the classpath to the created manifest -->
+                    <addClasspath>true</addClasspath>
+                    <!-- Specifies that all dependencies of our application are found -->
+                    <!-- Configures the main class of the application -->
+                    <mainClass>com.seminolestate.jared.Recursion</mainClass>
+                </manifest>
+            </archive>
+        </configuration>
+	</plugin>  
     </plugins>
   </build>
   
