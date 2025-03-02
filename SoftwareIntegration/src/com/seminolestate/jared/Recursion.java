@@ -10,11 +10,11 @@ public class Recursion
 	public static void main(String[] args) 
 	{
 		int initVal = 10;
-		int secVal = 15;
+		//int secVal = 15;
 
 		
 		System.out.println("The " + initVal + " term of the Fibonacci sequence is: " + fibonacci(initVal));
-		System.out.println("The " + secVal + " term of the Fibonacci sequence is: " + fibonacci(secVal));
+		//System.out.println("The " + secVal + " term of the Fibonacci sequence is: " + fibonacci(secVal));
 	}
 	
 	/**
