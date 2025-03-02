@@ -20,7 +20,7 @@ public class Recursion
 	 * @param val the value to be caculated
 	 * @return the result of the calculation
 	 */
-	private static int fibonacci(int val)
+	public static int fibonacci(int val)
 	{
 		return (val == 0 || val == 1) ? val : fibonacci(val - 1) + fibonacci(val - 2);
 	}

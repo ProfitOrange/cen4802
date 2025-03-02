@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.seminolestate.jared.LoanCalculator;
+import com.seminolestate.jared.Recursion;
 
 class UnitTesting 
 {
@@ -31,6 +32,8 @@ class UnitTesting
 	@Test
 	public void test() 
 	{
+		assertEquals(55, Recursion.fibonacci(10));
+		
 		assertEquals(2026.74, loanCalc.getMonthlyPayment());
 		assertEquals(1500.00, loanCalc.getMonthlyInterest() * loanCalc.getPrincipleRemaining());
 		
