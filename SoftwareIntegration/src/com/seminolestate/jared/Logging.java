@@ -11,7 +11,7 @@ import org.apache.logging.log4j.core.config.Configurator;
  */
 public class Logging 
 {
-	private static final int FIBONACCI_LIMIT = 46;
+	private static final int FIBONACCI_LIMIT = 50; //46 before integer rolls over
 	
 	private static final org.apache.logging.log4j.Logger logger = LogManager.getLogger(Logging.class);
 	
@@ -34,16 +34,23 @@ public class Logging
 		long timeInit = 0;
 		long timeTaken = 0;
 		
-		for(int i = 0; i <= FIBONACCI_LIMIT; i++) //Last value before integer rolls over to the negatives
+		for(int i = 0; i <= term; i++) //Last value before integer rolls over to the negatives
 		{
 			timeInit = System.currentTimeMillis();
-			logger.info("Value at " + i + " term: " + Recursion.fibonacci(i));
+			int value = Recursion.fibonacci(i);
 			timeTaken = System.currentTimeMillis() - timeInit;
+			
+			if(value < 0)
+			{
+				logger.error("Positive integer limit reached at term: " + (i - 1) + "! Unable to continue parsing, closing program!");
+				break;
+			}
+			
+			logger.info("Value at " + i + " term: " + value);
 			logger.info("Time taken to calculate: " + timeTaken + " milliseconds");
 			
 			if(timeTaken > 1000)
-				logger.warn("Fibonacci calculation term: " + i + " is causing the program to slow down!");
-			
+				logger.warn("Fibonacci calculation term: " + i + " is causing the program to experience significant slow downs!");
 		}
 		
 		input.close();
