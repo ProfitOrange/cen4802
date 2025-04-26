@@ -11,9 +11,8 @@ public class Recursion
 	{
 		int initVal = 10;
 		int secVal = 15;
-		int thirdVal = 20;
+		int thirdVal = 46;
 
-		
 		System.out.println("The " + initVal + " term of the Fibonacci sequence is: " + fibonacci(initVal));
 		System.out.println("The " + secVal + " term of the Fibonacci sequence is: " + fibonacci(secVal));
 		System.out.println("The " + thirdVal + " term of the Fibonacci sequence is: " + fibonacci(thirdVal));

@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
+	<Properties>
+		<property name="filePattern">${date:yyyy-MM-dd-HH_mm_ss}</property>
+  </Properties>
   <Appenders>
     <Console name="Console">
-      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+      <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
     </Console>
 	<File name="FileLogger" fileName="logs/debug.log" append="false">
-        <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
+        <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
     </File>
+	<RollingFile name="RollingFile" fileName="logs/app-${date:yyyy-MM-dd_HH-mm-ss}.log" filePattern="logs/app-%d{yyyy-MM-dd}-%i.log" append="false">
+        <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
+        <Policies>
+            <SizeBasedTriggeringPolicy size="10MB"/>
+            <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+        </Policies>
+    </RollingFile>
   </Appenders>
   <Loggers>
-    <Root level="trace">
+    <Root level="debug">
       <AppenderRef ref="Console"/>
-	  <AppenderRef ref="FileLogger" />
+	  <AppenderRef ref="FileLogger"/>
+	  <AppenderRef ref="RollingFile"/>
     </Root>
   </Loggers>
 </Configuration>
