@@ -29,7 +29,8 @@ public class Logging
 			term = parseInt(input);
 		}
 		
-		
+		//System.out.println("The " + term + " term of the Fibonacci sequence is: " + Recursion.fibonacci(term));
+		System.out.println("The " + term + " term of the Fibonacci sequence is: " + Recursion.fastFibonacci(term));
 		
 		long timeInit = 0;
 		long timeTaken = 0;
@@ -37,7 +38,7 @@ public class Logging
 		for(int i = 0; i <= term; i++) //Last value before integer rolls over to the negatives
 		{
 			timeInit = System.currentTimeMillis();
-			int value = Recursion.fibonacci(i);
+			long value = Recursion.fastFibonacci(i);
 			timeTaken = System.currentTimeMillis() - timeInit;
 			
 			if(value < 0)

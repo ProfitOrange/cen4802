@@ -1,62 +1,102 @@
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 0 term: 0
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 1 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 1 term: 1
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 2 term: 1
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 3 term: 2
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 4 term: 3
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 5 term: 5
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 6 term: 8
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 7 term: 13
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 8 term: 21
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 9 term: 34
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 10 term: 55
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 11 term: 89
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 12 term: 144
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 13 term: 233
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 14 term: 377
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 15 term: 610
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 16 term: 987
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 17 term: 1597
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 18 term: 2584
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 19 term: 4181
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 20 term: 6765
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 21 term: 10946
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 22 term: 17711
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 1 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 23 term: 28657
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 24 term: 46368
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 25 term: 75025
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 26 term: 121393
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 2 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 27 term: 196418
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 1 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 28 term: 317811
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 1 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 29 term: 514229
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 2 milliseconds
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Value at 30 term: 832040
-2025-Apr-26 01:07:11 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 2 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 0 term: 0
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 1 term: 1
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 2 term: 1
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 3 term: 2
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 4 term: 3
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 5 term: 5
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 6 term: 8
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 7 term: 13
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 8 term: 21
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 9 term: 34
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 10 term: 55
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 11 term: 89
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 12 term: 144
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 13 term: 233
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 14 term: 377
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 15 term: 610
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 16 term: 987
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 17 term: 1597
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 18 term: 2584
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 19 term: 4181
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 20 term: 6765
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 21 term: 10946
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 22 term: 17711
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 23 term: 28657
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 24 term: 46368
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 25 term: 75025
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 26 term: 121393
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 27 term: 196418
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 28 term: 317811
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 29 term: 514229
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 30 term: 832040
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 31 term: 1346269
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 32 term: 2178309
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 33 term: 3524578
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 34 term: 5702887
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 35 term: 9227465
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 36 term: 14930352
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 37 term: 24157817
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 38 term: 39088169
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 39 term: 63245986
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 40 term: 102334155
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 41 term: 165580141
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 42 term: 267914296
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 43 term: 433494437
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 44 term: 701408733
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 45 term: 1134903170
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 46 term: 1836311903
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 47 term: 2971215073
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 48 term: 4807526976
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 49 term: 7778742049
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Value at 50 term: 12586269025
+2025-Apr-26 01:45:37 AM [main] INFO  com.seminolestate.jared.Logging - Time taken to calculate: 0 milliseconds
